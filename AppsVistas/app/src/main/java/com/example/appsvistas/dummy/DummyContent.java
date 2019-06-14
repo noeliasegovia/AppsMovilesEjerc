@@ -26,10 +26,9 @@ public class DummyContent {
     private static final int COUNT = 25;
 
     static {
-        // Add some sample items.
-        for (int i = 1; i <= COUNT; i++) {
-            addItem(createDummyItem(i));
-        }
+        addItem(new DummyItem("1","Amazon","http://www.amazon.com"));
+        addItem(new DummyItem("2","Google","http://www.google.com"));
+        addItem(new DummyItem("3","Android","http://www.android.com"));
     }
 
     private static void addItem(DummyItem item) {
@@ -54,19 +53,19 @@ public class DummyContent {
      * A dummy item representing a piece of content.
      */
     public static class DummyItem {
-        public final String id;
-        public final String content;
-        public final String details;
+        public String id;
+        public String website_name;
+        public String website_url;
 
-        public DummyItem(String id, String content, String details) {
+        public DummyItem(String id, String website_name, String website_url) {
             this.id = id;
-            this.content = content;
-            this.details = details;
+            this.website_name = website_name;
+            this.website_url = website_url;
         }
 
         @Override
         public String toString() {
-            return content;
+            return website_name;
         }
     }
 }

@@ -1,4 +1,23 @@
 <resources>
-    <string name="app_name">EjemploAndroid</string>
+    <string name="app_name">QueTalTuDIA</string>
     <string name="action_settings">Settings</string>
+
+    <!-- TITULO-->
+    <string name="pregunta">¿Que tal fue tu dia?</string>
+
+    <!-- RESPUESTAS-->
+    <string name="respuesta1">Excelente</string>
+    <string name="respuesta2">Bueno</string>
+    <string name="respuesta3">Malo</string>
+    <string name="respuesta4">Pesimo</string>
+
+    <!--BOTON -->
+    <string name="btn_txt">Enviar</string>
+
+    <!-- MENSAJES-->
+    <string name="mensaje1">¡Que buena noticia!</string>
+    <string name="mensaje2">Seguro que mañana será excelente!</string>
+    <string name="mensaje3">¡Vamos!Que no decaiga</string>
+    <string name="mensaje4">¡Arriba ese ánimo!</string>
+
 </resources>
